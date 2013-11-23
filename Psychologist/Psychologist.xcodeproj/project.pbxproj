@@ -21,6 +21,8 @@
 		923D813218411085008ADDB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923D811418411085008ADDB9 /* UIKit.framework */; };
 		923D813A18411085008ADDB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923D813818411085008ADDB9 /* InfoPlist.strings */; };
 		923D813C18411085008ADDB9 /* PsychologistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D813B18411085008ADDB9 /* PsychologistTests.m */; };
+		923D814918411C40008ADDB9 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D814618411C40008ADDB9 /* HappinessViewController.m */; };
+		923D814A18411C40008ADDB9 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 923D814818411C40008ADDB9 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		923D813718411085008ADDB9 /* PsychologistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PsychologistTests-Info.plist"; sourceTree = "<group>"; };
 		923D813918411085008ADDB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		923D813B18411085008ADDB9 /* PsychologistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistTests.m; sourceTree = "<group>"; };
+		923D814518411C40008ADDB9 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappinessViewController.h; path = ../HappinessViewController.h; sourceTree = "<group>"; };
+		923D814618411C40008ADDB9 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappinessViewController.m; path = ../HappinessViewController.m; sourceTree = "<group>"; };
+		923D814718411C40008ADDB9 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceView.h; path = ../FaceView.h; sourceTree = "<group>"; };
+		923D814818411C40008ADDB9 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FaceView.m; path = ../FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		923D811618411085008ADDB9 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
+				923D814518411C40008ADDB9 /* HappinessViewController.h */,
+				923D814618411C40008ADDB9 /* HappinessViewController.m */,
+				923D814718411C40008ADDB9 /* FaceView.h */,
+				923D814818411C40008ADDB9 /* FaceView.m */,
 				923D811F18411085008ADDB9 /* PsychologistAppDelegate.h */,
 				923D812018411085008ADDB9 /* PsychologistAppDelegate.m */,
 				923D812218411085008ADDB9 /* Main.storyboard */,
@@ -252,6 +262,8 @@
 			files = (
 				923D812118411085008ADDB9 /* PsychologistAppDelegate.m in Sources */,
 				923D811D18411085008ADDB9 /* main.m in Sources */,
+				923D814A18411C40008ADDB9 /* FaceView.m in Sources */,
+				923D814918411C40008ADDB9 /* HappinessViewController.m in Sources */,
 				923D812718411085008ADDB9 /* PsychologistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +473,7 @@
 				923D814118411085008ADDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		923D814218411085008ADDB9 /* Build configuration list for PBXNativeTarget "PsychologistTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				923D814418411085008ADDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
